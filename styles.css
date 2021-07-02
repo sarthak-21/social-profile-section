@@ -4,6 +4,7 @@ body{
 .top{
   background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
   background-position: left top, right bottom;
+  background-size: 38%, 82%;
   background-repeat: no-repeat, no-repeat;
 }
 
@@ -122,6 +123,7 @@ body{
 @media only screen and (min-width: 375px) and (max-width: 767px){
   .top{
     background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
+    background-size: 100%;
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
   }
