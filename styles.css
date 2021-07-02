@@ -1,0 +1,171 @@
+body{
+  font-family: 'Spartan', sans-serif;
+}
+.top{
+  background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.first-rating, .second-rating, .third-rating{
+  background-color:  #FFE1FF;
+  width: 70%;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.second-rating{
+  margin-left: 5%;
+}
+
+.third-rating{
+  margin-left: 10%;
+}
+
+.row{
+  margin: 0;
+}
+
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+
+.star-img{
+  padding: 0 0.5%;
+}
+
+.stars{
+  padding: 7% 0 2% 2%;
+}
+
+.headingInfo{
+  padding: 7% 5% 2% 10%;
+}
+
+.headingInfo>h1{
+  color: hsl(300, 43%, 22%);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.headingInfo>p{
+  color: hsl(303, 10%, 53);
+}
+
+.name{
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.pink{
+  color: hsl(333, 80%, 67%);
+  font-size: 0.9rem;
+}
+
+.reviews{
+  background-color: hsl(300, 43%, 22%);
+  padding: 3%;;
+  border-radius: 5px;
+}
+
+.reviews>p{
+  color: hsl(300, 24%, 96%);
+  margin-top: 10%;
+  font-size: 0.82rem;
+  line-height: 1.3rem;
+}
+
+.images{
+  border-radius: 50%;
+  width: 60%;
+  height: auto;
+}
+
+.rating{
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  padding-left: 10%;
+}
+
+.review-section{
+  margin: 3% 10% 10%;
+}
+
+.first, .second{
+  margin-right: 2.5%;
+}
+
+.second{
+  margin-top: 1.5%;
+}
+
+.third{
+  margin-top: 3%;
+}
+
+.third, .second, .first{
+  min-width: 31.5%;
+  max-height: 235px;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 11px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Mobile */
+@media only screen and (min-width: 375px) and (max-width: 767px){
+  .top{
+    background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+  }
+
+  .headingInfo
+  {
+    text-align: center;
+    padding: 20% 6% 4%;
+  }
+
+  .headingInfo>h1{
+    font-size: 2.2rem;
+    margin-bottom: 7%;
+    line-height: 2rem;
+  }
+
+  .first-rating, .second-rating, .third-rating{
+    margin: 4% 2%;
+    width: 94%;
+    text-align: center;
+  }
+
+  .stars{
+    padding: 0 3%;
+  }
+
+  .rating::before{
+    content: "\a";
+    white-space: pre;
+  }
+
+  .star-img{
+    padding: 3% 0.5%;
+  }
+
+  .rating{
+    padding: 0;
+  }
+
+  .review-section{
+    margin: 7% 6% 10%;
+  }
+  .first, .second, .third{
+    margin: 2% 0;
+    padding: 10% 9%;
+  }
+}
